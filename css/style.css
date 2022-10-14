@@ -82,10 +82,11 @@ header .left .btn .sidebar div {
     display: inherit;
   }
   header .left .btn .sidebar{
-    width: 30%;
+    /* width: 30%; */
+    width: fit-content;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 30px) {
   header .left .hide-c {
     display: none;
   }
@@ -100,13 +101,14 @@ header .left .btn .sidebar div {
   }
   header .left .btn .sidebar{
     /* width: 30%; */
-  }
-}
-@media (min-width:300px) {
-  header .left .btn .sidebar{
     width: fit-content;
   }
 }
+/* @media (min-width:300px) {
+  header .left .btn .sidebar{
+   
+  } */
+/* } */
 header .right {
   width: 13%;
   height: 100%;
