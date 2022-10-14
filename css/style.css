@@ -1,0 +1,130 @@
+
+@media (min-width: 1200px) {
+  .btn {
+    display: none;
+  }
+}
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #1D2B35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .left {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+header .left div {
+  cursor: pointer;
+}
+header .left .btn {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+header .left .btn:focus .sidebar {
+  display: inherit;
+}
+header .left .btn .sidebar {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 20%;
+  height: 94vh;
+  box-shadow: 0px 0px 2px black;
+  color: black;
+  display: none;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+header .left .btn .sidebar div {
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  header .left .hide-a {
+    display: none;
+  }
+  header .left .rev-b, header .left .rev-a, header .left .reveal {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  header .left .hide-b {
+    display: none;
+  }
+  header .left .rev-a {
+    display: inherit;
+  }
+  header .left .rev-b {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  header .left .hide-c {
+    display: none;
+  }
+  header .left .rev-b {
+    display: inherit;
+  }
+}
+@media (max-width: 300px) {
+  header .left .hide-c {
+    display: none;
+  }
+  header .left .rev-b {
+    display: inherit;
+  }
+  header .left .hidden {
+    display: none;
+  }
+  header .left .reveal {
+    display: inherit;
+  }
+}
+header .right {
+  width: 13%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+header .right div {
+  cursor: pointer;
+}
+header .right .fa-globe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+header .right .fa-globe:hover .conte {
+  color: red;
+  display: inherit;
+}
+header .right .fa-globe .conte {
+  width: 80px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+  position: absolute;
+  top: 33px;
+  display: none;
+}/*# sourceMappingURL=w3.css.map */
