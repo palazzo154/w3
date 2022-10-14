@@ -81,6 +81,9 @@ header .left .btn .sidebar div {
   header .left .rev-b {
     display: inherit;
   }
+  header .left .btn .sidebar{
+    width: 30%;
+  }
 }
 @media (max-width: 300px) {
   header .left .hide-c {
