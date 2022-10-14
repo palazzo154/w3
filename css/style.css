@@ -104,7 +104,7 @@ header .left .btn .sidebar div {
 }
 @media (min-width:300px) {
   header .left .btn .sidebar{
-    width: 30%;
+    width: fit-content;
   }
 }
 header .right {
